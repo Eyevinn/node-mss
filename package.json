@@ -17,6 +17,10 @@
     "mss",
     "hss"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eyevinn/node-mss"
+  },
   "license": "MIT",
   "dependencies": {
     "debug": "^4.3.2",
