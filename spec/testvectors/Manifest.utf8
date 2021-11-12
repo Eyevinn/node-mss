@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SmoothStreamingMedia MajorVersion="2" MinorVersion="0" TimeScale="10000000" Duration="0" IsLive="TRUE" DVRWindowLength="600000000" LookAheadFragmentCount="2">
+<StreamIndex Type="video" Name="video" Subtype="AVC1" Chunks="30" MaxWidth="1280" MaxHeight="720" DisplayWidth="1280" DisplayHeight="720" Url="h_d00524ea4dc32d26865ab79fa0444c77/QualityLevels({bitrate})/Fragments(video={start time})?device_profile=smoothtrk_playready_verimatrix%26seg_size=2">
+<QualityLevel Index="0" Bitrate="4660000" FourCC="H264" MaxWidth="1280" MaxHeight="720" CodecPrivateData="0000000167640020AC2CC5014016EC050808080A000003000200000300C928000000000168EE3CB0"/>
+<QualityLevel Index="1" Bitrate="2580000" FourCC="H264" MaxWidth="854" MaxHeight="480" CodecPrivateData="00000001674D401E966281B07BCDFFE0A000A028414141500000030010000003032940000000000168EE3C80"/>
+<QualityLevel Index="2" Bitrate="920000" FourCC="H264" MaxWidth="640" MaxHeight="360" CodecPrivateData="00000001674D401E966281405FF2E028414141500000030010000003032940000000000168EE3C80"/>
+<c d="20000000" t="16367206780006888"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+<c d="20000000"/>
+</StreamIndex>
+<StreamIndex Type="audio" Name="Dansk Stereo" Language="dan" Subtype="AACL" Chunks="30" Url="h_d00524ea4dc32d26865ab79fa0444c77/QualityLevels({bitrate})/Fragments(audio65={start time})?device_profile=smoothtrk_playready_verimatrix%26seg_size=2">
+<QualityLevel Index="0" Bitrate="160000" FourCC="AACL" AudioTag="255" Channels="2" SamplingRate="48000" BitsPerSample="16" PacketSize="4" CodecPrivateData="1190"/>
+<QualityLevel Index="1" Bitrate="140000" FourCC="AACL" AudioTag="255" Channels="2" SamplingRate="48000" BitsPerSample="16" PacketSize="4" CodecPrivateData="1190"/>
+<c d="29866666" t="16367206780410222"/>
+<c d="20053334"/>
+<c d="9813333"/>
+<c d="20053333"/>
+<c d="20053334"/>
+<c d="20053333"/>
+<c d="20053333"/>
+<c d="20053334"/>
+<c d="19626666"/>
+<c d="20053334"/>
+<c d="20053333"/>
+<c d="20053333"/>
+<c d="20053334"/>
+<c d="20053333"/>
+<c d="20053333"/>
+<c d="20053334"/>
+<c d="20480000"/>
+<c d="19200000"/>
+<c d="20053333"/>
+<c d="20053333"/>
+<c d="20053334"/>
+<c d="20053333"/>
+<c d="20053333"/>
+<c d="20053334"/>
+<c d="29866666"/>
+<c d="20053334"/>
+<c d="9813333"/>
+<c d="20053333"/>
+<c d="20053334"/>
+<c d="20053333"/>
+</StreamIndex>
+</SmoothStreamingMedia>
