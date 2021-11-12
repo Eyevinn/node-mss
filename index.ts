@@ -68,7 +68,7 @@ export class MSS {
           samplingRate: parseInt(l["@_SamplingRate"], 10) || undefined,
           bitsPerSample: parseInt(l["@_BitsPerSample"], 10) || undefined,
           packetSize: parseInt(l["@_PacketSize"], 10) || undefined,
-          codec: this.parseCodePrivateData(l["@_FourCC"], l["@_CodecPrivateData"]),
+          codec: this.parseCodecPrivateData(l["@_FourCC"], l["@_CodecPrivateData"]),
         };
       });
       return {
@@ -87,8 +87,8 @@ export class MSS {
     });
   }
 
-  private parseCodePrivateData(fourCC: string, codecPrivateData: string) {
-    if (fourCC === "H264") {
+  private parseCodecPrivateData(fourCC: string, codecPrivateData: string) {
+    if (fourCC === "H264" || fourCC === "AVC1") {
       // => Find the SPS nal header
       const nalHeader = /00000001[0-9]7/.exec(codecPrivateData);
       // => Find the 6 characters after the SPS nalHeader (if it exists)
